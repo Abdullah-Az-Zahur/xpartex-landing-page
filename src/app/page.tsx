@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner/Banner";
 import DesignEngineering from "@/components/DesignEngineering/DesignEngineering";
 import Header from "@/components/Header/Header";
+import Portfolio from "@/components/Portfolio/Portfolio";
 
 export default function Home() {
   return (
@@ -12,6 +13,12 @@ export default function Home() {
         <Banner />
         <DesignEngineering/>
       </section>
+
+      {/* Portfolio Section */}
+      <section className="bg-gray-800 p-4">
+        <Portfolio/>
+      </section>
+
     </div>
   );
 }
