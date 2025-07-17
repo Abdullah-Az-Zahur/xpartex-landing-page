@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import bannerImage from "/public/assets/image/banner/banner-1.png";
+import DesignEngineering from "../DesignEngineering/DesignEngineering";
 
 const Banner = () => {
   return (
-    <div className=" mx-auto">
+    <div className="bg-red-100 p-4 mx-auto">
       <section className="relative text-black py-20 px-10">
         {/*  Left Content Box */}
         <div className="bg-slate-50 p-5 py-10 w-2/3 h-1/2 bottom-0 left-0 mt-36">
@@ -40,6 +41,7 @@ const Banner = () => {
           </div>
         </div>
       </section>
+        <DesignEngineering/>
     </div>
   );
 };
