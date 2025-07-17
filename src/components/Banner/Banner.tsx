@@ -40,16 +40,6 @@ const Banner = () => {
           </div>
         </div>
       </section>
-
-      <section>
-        <h2 className="text-3xl font-bold text-black text-center">
-          Epic design and engineering
-        </h2>
-        <p className="text-center text-gray-600 my-4 container mx-auto">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-          sapiente nisi quia vero alias ab saepe recusandae odio eos magnam?
-        </p>
-      </section>
     </div>
   );
 };
