@@ -13,7 +13,7 @@ const BrandValues = () => {
           {" "}
           <div className="relative w-full">
             <div className="flex justify-between gap-5 w-full ">
-              {/* Right side image */}
+              {/* Left side image */}
               <div className="flex flex-col gap-5 w-1/2 md:mt-5">
                 <div className="w-5/6 ml-auto">
                   <Image
