@@ -16,7 +16,7 @@ const DesignEngineering = () => {
           sapiente nisi quia vero alias ab saepe recusandae odio eos magnam?
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 my-10 container mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 container mx-auto">
         
         {/* STRATEGY */}
         <div className="text-black text-center p-5">

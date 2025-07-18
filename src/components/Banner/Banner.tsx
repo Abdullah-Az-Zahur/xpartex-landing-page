@@ -6,7 +6,7 @@ import DesignEngineering from "../DesignEngineering/DesignEngineering";
 
 const Banner = () => {
   return (
-    <div className="bg-red-100 ">
+    <div className="bg-red-100 pb-10">
       <section className="relative text-black py-20 container mx-auto">
         {/*  Left Content Box */}
         <div className="bg-slate-50 p-5 py-10 w-2/3 h-1/2 bottom-0 left-0 mt-36">
