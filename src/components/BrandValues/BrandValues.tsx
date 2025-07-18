@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const BrandValues = () => {
   return (
-    <div className="bg-red-100 p-4 ">
+    <div className=" p-4 ">
       <div className="container mx-auto">
         <div className="w-full ">
           {" "}
