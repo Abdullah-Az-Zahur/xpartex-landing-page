@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Portfolio = () => {
   return (
-    <div className="bg-gray-800 p-4">
+    <div id="portfolio" className="bg-gray-800 p-4">
       <div className="container mx-auto">
         <div className="text-center text-white ">
           <h2 className="text-2xl font-bold  py-10">PORTFOLIO</h2>
@@ -23,7 +23,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 my-10">
-          <div className="">
+          <Link href="#" className="">
             <Image
               className="w-full h-auto"
               src={a1}
@@ -34,8 +34,8 @@ const Portfolio = () => {
             <p className="text-center bg-white text-gray-400  p-5">
               Website Design
             </p>
-          </div>
-          <div className="">
+          </Link>
+          <Link href="#" className="">
             <Image
               className="w-full h-auto"
               src={a2}
@@ -46,8 +46,8 @@ const Portfolio = () => {
             <p className="text-center bg-white text-gray-400  p-5">
               Mobile Application
             </p>
-          </div>
-          <div className="">
+          </Link>
+          <Link href="#" className="">
             <Image
               className="w-full h-auto"
               src={a3}
@@ -58,8 +58,8 @@ const Portfolio = () => {
             <p className="text-center bg-white text-gray-400  p-5">
               Corporate Design
             </p>
-          </div>
-          <div className="">
+          </Link>
+          <Link href="#" className="">
             <Image
               className="w-full h-auto"
               src={a4}
@@ -70,8 +70,8 @@ const Portfolio = () => {
             <p className="text-center bg-white text-gray-400  p-5">
               Mobile Application
             </p>
-          </div>
-          <div>
+          </Link>
+          <Link href="#">
             <Image
               className="w-full h-auto"
               src={a5}
@@ -82,8 +82,8 @@ const Portfolio = () => {
             <p className="text-center bg-white text-gray-400  p-5">
               Responsive Design
             </p>
-          </div>
-          <div>
+          </Link>
+          <Link href="#">
             <Image
               className="w-full h-auto"
               src={a6}
@@ -94,7 +94,7 @@ const Portfolio = () => {
             <p className="text-center bg-white text-gray-400  p-5">
               Digital Product
             </p>
-          </div>
+          </Link>
         </div>
 
         <p className="my-4 text-center">

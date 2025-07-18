@@ -5,6 +5,7 @@ import Link from "next/link";
 const Crafting = () => {
   return (
     <div
+    id="crafting"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
@@ -26,7 +27,7 @@ const Crafting = () => {
               Freepic
             </Link>
           </p>
-          <button className="bg-black text-white py-2 px-5 rounded-md text-xs">
+          <button className="bg-black text-white py-2 px-5 rounded-md text-xs hover:bg-gray-400 hover:text-black transition">
             CONTACT US
           </button>
         </div>

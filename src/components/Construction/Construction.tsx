@@ -5,6 +5,7 @@ import Link from "next/link";
 const Construction = () => {
   return (
     <div
+      id="construction"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
@@ -26,7 +27,7 @@ const Construction = () => {
             Freepic
           </Link>
         </p>
-        <button className="bg-transparent  py-2 px-5 rounded-md text-xs border-2">
+        <button className="bg-transparent py-2 px-5 rounded-md text-xs border-2 hover:bg-white hover:text-black transition">
           VIEW PORTFOLIO
         </button>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const WhatWeDo = () => {
   return (
-    <div className="bg-black py-10">
+    <div id="what-we-do" className="bg-black py-10">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-yellow-500 text-center pb-5">
           What We Do

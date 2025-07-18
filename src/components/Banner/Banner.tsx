@@ -6,7 +6,7 @@ import DesignEngineering from "../DesignEngineering/DesignEngineering";
 
 const Banner = () => {
   return (
-    <div className="pb-10">
+    <div id="banner" className="pb-10">
       <section className="relative text-black py-20 container mx-auto">
         {/*  Left Content Box */}
         <div className="bg-slate-50 p-5 py-10 w-2/3 h-1/2 bottom-0 left-0 mt-36">
@@ -23,7 +23,7 @@ const Banner = () => {
               Freepic
             </Link>
           </p>
-          <button className="bg-black text-white py-2 px-5 rounded-md text-xs">
+          <button className="bg-black text-white py-2 px-5 rounded-md text-xs hover:bg-gray-400 hover:text-black transition">
             VIEW PORTFOLIO
           </button>
         </div>

@@ -7,6 +7,7 @@ import Link from "next/link";
 const MockUp = () => {
   return (
     <div
+    id="mockup"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
