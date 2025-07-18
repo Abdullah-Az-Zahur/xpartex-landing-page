@@ -13,9 +13,9 @@ const Construction = () => {
       }}
       className="bg-cover"
     >
-      <div className="w-1/2 ml-auto text-gray-500 py-16">
+      <div className="md:w-1/2 ml-auto text-gray-500 p-5 md:py-16">
         <h2 className=" text-3xl font-bold my-5">Construction and <br /> renovation project</h2>
-        <p className="w-1/2">
+        <p className="md:w-1/2">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id autem
           eius eligendi aperiam, assumenda dolores laborum et, ducimus aut enim,
           odio temporibus inventore. Rerum obcaecati itaque architecto eius?

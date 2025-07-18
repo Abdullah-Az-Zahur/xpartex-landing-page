@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div id="contact" className="container mx-auto p-4 flex">
-      <div className=" bg-white text-black text-center w-1/2 p-5">
+    <div id="contact" className="container mx-auto p-4 md:flex">
+      <div className=" bg-white text-black text-center md:w-1/2 p-5">
         <h2 className="text-3xl font-bold my-5">CONTACT US</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit illum
@@ -35,7 +35,7 @@ const Contact = () => {
           </Link>
         </p>
       </div>
-      <div className="w-1/2 ">
+      <div className="md:w-1/2 ">
         <Image
           src={contactImage}
           alt="Image"

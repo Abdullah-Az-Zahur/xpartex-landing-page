@@ -14,7 +14,7 @@ const Crafting = () => {
       className="bg-cover py-5"
     >
       <div className=" container mx-auto text-black ">
-        <div className="bg-white w-1/3 my-10 p-10">
+        <div className="bg-white md:w-1/3 my-10 p-10">
           <h3 className="text-2xl font-bold ">
             Crafting digital <br /> experiences
           </h3>

@@ -8,7 +8,7 @@ const WhatWeDo = () => {
           What We Do
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-          <div className="space-y-2 text-gray-300">
+          <div className="space-y-2 text-gray-300 p-5">
             <h3 className="text-2xl py-5 text-yellow-500">Strategy.</h3>
             <p className="hover:underline">Analytics and Research</p>
             <p className="hover:underline">Interactive Workshops</p>
@@ -17,7 +17,7 @@ const WhatWeDo = () => {
             <p className="hover:underline">Digital Strategy</p>
             <p className="hover:underline">Conversation Rate Optimization</p>
           </div>
-          <div className="space-y-2 text-gray-300">
+          <div className="space-y-2 text-gray-300 p-5">
             <h3 className="text-2xl py-5 text-yellow-500">Design.</h3>
             <p className="hover:underline">Creative Direction</p>
             <p className="hover:underline">Brand Guides</p>
@@ -26,7 +26,7 @@ const WhatWeDo = () => {
             <p className="hover:underline">Visual Asset Creation</p>
             <p className="hover:underline">Motion Design</p>
           </div>
-          <div className="space-y-2 text-gray-300">
+          <div className="space-y-2 text-gray-300 p-5">
             <h3 className="text-2xl py-5 text-yellow-500">Development.</h3>
             <p className="hover:underline">System Architecture Design</p>
             <p className="hover:underline">Full-Stack Development</p>

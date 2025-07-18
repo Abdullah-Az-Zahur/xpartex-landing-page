@@ -17,7 +17,7 @@ const DesignEngineering = () => {
           sapiente nisi quia vero alias ab saepe recusandae odio eos magnam?
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 container mx-auto">
         {/* STRATEGY */}
         <Link href="#" className="text-black text-center p-5">
           <PiHeadCircuitFill className="text-black text-6xl bg-white p-2 rounded-full shadow-md  items-center justify-center mx-auto" />
